@@ -1,0 +1,48 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  margin:0;
+  font-weight: 100;
+  line-height: 1.3em;
+}
+
+header {
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  font-size: 70px;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2{
+  font-size: 40px;
+}
+
+section{
+  margin:40px 150px;
+}
+
+section img {
+  display: block;
+  margin: 40px auto;
+}
+
+section p{
+  line-height: 1.5em;
+}
+
+section ol, section ul{
+  list-style-type: none;
+}
